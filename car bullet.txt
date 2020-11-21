@@ -1,0 +1,76 @@
+bullet=createSprite(50,200,50,5);
+bullet.velocity.X=speed;
+bullet.shapecolor(225);
+wall=createSprite(1200,200,thickness,height/2);
+wall.shapecolor=color(230,230,230);
+wall.shapecolor=color(80,80,80);
+function draw(){
+backgroud(0);
+//bullet.sprite.collide(wall.sprite.calculationDeformation)
+if(hasColieded(bullet,wall))
+if(hascollided(bullet,wall))
+bullet.velocityx=0;
+var damage=0.5*weight*speed speed/(thickness*thickness);
+if(damage>10)
+{ 
+wall.shapecolor=color(225,0,0);
+
+}
+if(damange>10)
+}
+function hasColieded(1bullet,wall)
+bulletRightEdge=bullet.x+1bullet.width;
+wallLeftEdge=1wall.x;
+if(bulletRightEdge>=wallLeftEdge)
+{
+   return true 
+   return flases 
+var wall,thickness;
+var bullet,speed,weight;
+function setup(){
+createCanvas(1600,400);
+speed=random(223,321)
+weight=random(30,52)
+thickness=radom(22,83);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
